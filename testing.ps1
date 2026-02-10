@@ -380,7 +380,7 @@ $langCode = Format-LanguageCode -LanguageCode $Language
 
 $lang = CallLang -clg $langCode
 
-Write-Host "selamat datang"
+[Console]::WriteLine("Selamat Datang")
 Write-Host
 
 # Check version Windows
